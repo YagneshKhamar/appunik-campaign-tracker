@@ -60,8 +60,14 @@ Read: current_week, current_day, cumulative stats, yesterday entry, week_tracker
 
 By day of week:
 
+X/Twitter handle: @heyYagnesh
+LinkedIn: personal profile + AppUnik company page
+
+X strategy: shorter, punchier than LinkedIn. One sharp observation per day. Threads on Wednesday only. Quote tweet your own LinkedIn post when possible to cross-pollinate audiences.
+
 MONDAY:
 - Content: LinkedIn personal — Hook post (pain-focused, targeting Series B CTOs)
+- Content: X/@heyYagnesh — 1 punchy tweet (1-2 lines max). Same pain angle, compressed. No thread.
 - Content: Start scripting this week's YouTube video
 - BD: Review Crunchbase for new Series B companies in this week's target country (filter: raised last 90 days, 50-200 employees). Add 10 to HubSpot.
 - Post at: [country optimal time]
@@ -69,35 +75,39 @@ MONDAY:
 TUESDAY:
 - Content: LinkedIn personal + company page — Case study thread
 - Case study rotation: week 1-3=Dell, 4-6=Kaplan, 7-9=Autodesk, 10-12=FIS Global
+- Content: X/@heyYagnesh — 1 stat or result from the case study. E.g. "We cut Kaplan's release cycle from 3 weeks to 4 days. Here is what changed." No thread.
 - BD: Send 5 LinkedIn connection requests to CTOs from the list (no pitch message)
 - Post at: [country optimal time]
 
 WEDNESDAY:
 - Content: LinkedIn personal — Contrarian take post
-- Content: Twitter/X — thread version of same angle
+- Content: X/@heyYagnesh — Full thread (5-7 tweets). Same contrarian angle, broken into numbered points. This is the main X content day.
 - BD: Follow up with anyone who accepted Monday/Tuesday connection requests. Send value message (share a post or insight, no pitch).
 - Post at: [country optimal time]
 
 THURSDAY:
 - Content: LinkedIn personal — How-to or framework post
+- Content: X/@heyYagnesh — 1 tweet summarising the framework in 1 sentence + a question to drive replies.
 - Content (even weeks): Draft and publish Medium article on same topic
 - BD: Research 5 more target companies. Update HubSpot.
 - Post at: [country optimal time]
 
 FRIDAY:
 - Content: LinkedIn personal — Social proof post ending with: Book a Scale Diagnostic at services.appunik.com
+- Content: X/@heyYagnesh — 1 tweet. A real number or outcome from this week's case study. End with services.appunik.com
 - BD: Send 5 DMs to CTOs who engaged with any post this week. Offer Scale Diagnostic.
 - Post at: [country optimal time]
 
 SATURDAY:
 - Content: Record and edit 90-second YouTube Short + Instagram Reel on an engineering topic
 - Content: Post natively to YouTube Shorts + Instagram Reels + LinkedIn video
-- BD: Review this week's LinkedIn analytics. Note best performing post topic.
+- Content: X/@heyYagnesh — share the YouTube Short link with a 1-line hook
+- BD: Review this week's LinkedIn + X analytics. Note best performing post and best performing tweet.
 
 SUNDAY:
 - Review: Check all metrics (see weekly report section below)
-- Reply to all comments and DMs from the week
-- Plan next week content angles based on what resonated
+- Reply to all comments, DMs, and X replies from the week
+- Plan next week content angles based on what resonated on both LinkedIn and X
 
 ---
 
@@ -169,10 +179,15 @@ Time: 20 minutes
 --------------------
 CONTENT PROMPT — USE THIS
 
+LINKEDIN:
 [Write a complete 4-6 sentence LinkedIn post draft the user can copy, edit, and publish directly.
 Make it specific to today's topic and current country target.
 Voice: CTO talking to CTO. Direct. No buzzwords. Reference a real AppUnik case study or specific metric.
 End with a question to drive comments OR a soft CTA.]
+
+X / @heyYagnesh:
+[Write today's X post — 1-2 lines on Mon/Tue/Thu/Fri, or a numbered 5-7 tweet thread on Wednesday.
+Same angle as LinkedIn but sharper and more opinionated. No corporate language. Punchy.]
 
 --------------------
 REPLY FORMAT
@@ -249,9 +264,12 @@ AppUnik Weekly BD Review — Week [W] of 12
 ========================================
 
 CONTENT THIS WEEK
-Posts published: [X] of 5 target
-Best post: [topic] — reason it worked: [analysis]
+LinkedIn posts published: [X] of 5 target
+Best LinkedIn post: [topic] — reason it worked: [analysis]
 LinkedIn followers gained: +[X]
+X tweets published: [X] of 6 target (Mon-Sat)
+Best X tweet: [topic] — impressions/replies: [X]
+X followers gained: +[X]
 YouTube views: [X]
 
 PIPELINE THIS WEEK
