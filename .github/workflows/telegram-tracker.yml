@@ -1,0 +1,38 @@
+name: Telegram Reply Tracker
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run tracker
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python .github/scripts/update_tracker.py
+
+      - name: Commit if changes
+        run: |
+          git config user.name "AppUnik BD Bot"
+          git config user.email "bot@appunik.com"
+          git add progress.json campaign-log.md
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Auto-update: campaign tracker $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
