@@ -1,0 +1,46 @@
+{
+  "campaign_start": "2026-04-15",
+  "last_updated": "2026-04-14",
+  "current_week": 0,
+  "current_day": 0,
+  "current_country": "Pre-launch",
+  "current_phase": "Foundation",
+  "week_tracker": {
+    "mon": false,
+    "tue": false,
+    "wed": false,
+    "thu": false,
+    "fri": false,
+    "sat": false
+  },
+  "yesterday": {
+    "date": "",
+    "tasks_planned": [],
+    "tasks_done": [],
+    "tasks_skipped": [],
+    "user_notes": "",
+    "completion_status": "not_started"
+  },
+  "cumulative": {
+    "posts_published": 0,
+    "linkedin_followers_gained": 0,
+    "cto_connections_made": 0,
+    "dms_sent": 0,
+    "calls_booked": 0,
+    "signed_engagements": 0
+  },
+  "weekly_scores": [],
+  "country_schedule": {
+    "weeks_1_4": "USA",
+    "weeks_5_6": "Australia",
+    "weeks_7_8": "Canada",
+    "weeks_9_10": "Ireland",
+    "weeks_11_12": "Finland"
+  },
+  "case_study_rotation": {
+    "weeks_1_3": "Dell",
+    "weeks_4_6": "Kaplan",
+    "weeks_7_9": "Autodesk",
+    "weeks_10_12": "FIS Global"
+  }
+}
