@@ -22,7 +22,7 @@ PROGRESS_FILE = "progress.json"
 LOG_FILE = "campaign-log.md"
 
 # Only process messages from the last 35 minutes (30-min cron + 5-min buffer)
-LOOKBACK_SECONDS = 35 * 60
+LOOKBACK_SECONDS = 6 * 60 * 60 + 5 * 60  # 6 hours + 5 min buffer
 
 
 def fetch_updates():
